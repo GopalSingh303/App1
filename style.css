@@ -1,0 +1,75 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,500&display=swap');
+
+
+*{
+    box-sizing: border-box;
+}
+body
+{
+   
+    background-image: url(./snow.jpg);
+    background-repeat: no-repeat ;
+    background-size: cover;
+    background-position: center center;
+    font-family: 'Poppins',sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+
+}
+h1{
+    font-weight: normal;
+    font-size: 4rem;
+    margin-top: 0rem;
+}
+.countdown.container
+{
+    display: inline-block;
+    flex-wrap: wrap;
+
+}
+.countdown-el
+{
+       display: inline-block;
+}
+
+.big-text{
+    font-weight: bold;
+    font-size: 1.8rem;
+    margin: 0 1rem;
+    
+}
+countdown-el {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.countdown-el span{
+    font-size: 1.5rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
